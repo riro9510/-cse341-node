@@ -1,0 +1,33 @@
+# GET to /professional local 
+GET http://localhost:8080/professional 
+
+
+
+#GET to /contacts local
+
+GET http://localhost:8080/contacts 
+
+
+
+#GET to /contacts/67c99e39d63334a454a51287 local
+
+GET http://localhost:8080/contacts/67c99e39d63334a454a51287 
+
+
+
+# GET to /professional production render 
+
+GET https://cse341-node-1-phhh.onrender.com/professional 
+
+
+
+#GET to /contacts production render
+
+GET https://cse341-node-1-phhh.onrender.com/contacts 
+
+
+
+#GET to /contacts/67c99e39d63334a454a51287 production render
+
+GET https://cse341-node-1-phhh.onrender.com/contacts/67c99e39d63334a454a51287 
+
