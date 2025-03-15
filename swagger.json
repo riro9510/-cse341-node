@@ -5,7 +5,7 @@
     "description": "user-api",
     "version": "1.0.0"
   },
-  "host": "https://cse341-node-1-phhh.onrender.com/",
+  "host": "cse341-node-1-phhh.onrender.com/",
   "basePath": "/contacts",
   "schemes": [
     "https"
