@@ -5,11 +5,10 @@
     "description": "user-api",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://cse341-node-1-phhh.onrender.com/",
   "basePath": "/contacts",
   "schemes": [
-    "https",
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
