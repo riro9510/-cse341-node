@@ -7,7 +7,7 @@ const doc = {
     },
     host:'localhost:8080',
     schemes:['https','http'],
-    basePath: '/',
+    basePath: '/contacts',
 }
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/contacts.js'];
