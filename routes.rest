@@ -13,7 +13,32 @@ GET http://localhost:8080/contacts
 
 GET http://localhost:8080/contacts/67c99e39d63334a454a51287 
 
+# POST to  http://localhost:8080/contacts/
 
+POST http://localhost:8080/contacts/ HTTP/1.1
+Content-Type: application/json
+{
+ "firstName":"TeddyBerto",
+ "lastName":"dog",
+ "email":"aDogEamil@Test1",
+ "favoriteColor":"green",
+ "birthday":"2020-12-12",}
+
+#PUT TO http://localhost:8080/contacts/67c99e98d63334a454a5128b
+
+PUT http://localhost:8080/contacts/67c99e98d63334a454a5128b HTTP/1.1
+Content-Type: application/json
+{
+ "firstName":"JuliaChangeName",
+ "lastName":"JuliaChangeLastName",
+ "email":"prinsess_love@gmail.com",
+ "favoriteColor":"green",
+ "birthday":"1990-01-01",
+}
+
+#DELETE TO http://localhost:8080/contacts/67c99e39d63334a454a51287
+
+DELETE  http://localhost:8080/contacts/67c99e39d63334a454a51287
 
 # GET to /professional production render 
 
@@ -30,4 +55,3 @@ GET https://cse341-node-1-phhh.onrender.com/contacts
 #GET to /contacts/67c99e39d63334a454a51287 production render
 
 GET https://cse341-node-1-phhh.onrender.com/contacts/67c99e39d63334a454a51287 
-
